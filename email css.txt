@@ -1,0 +1,41 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    text-align: center;
+    background: #fff;
+    padding: 40px; 
+}
+ .box h1 {
+    color: #071048;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 6px;
+ }
+ .box p{
+    color: #060000;
+    font-size: 18px;
+    margin: 0;
+ }
+ .box input {
+    font-size: 18px;
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    margin-right: 10px;
+    outline: none;
+    background: #efefef;
+ }
+ .box button {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding:  15px 20px;
+    background: #023953;
+}

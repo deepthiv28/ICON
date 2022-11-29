@@ -1,0 +1,89 @@
+root{
+    --main-colorred;
+    --mina-color-darker#941e1a;
+    --white#ffffff;
+    --dropdown-radius50px;
+}
+.text-main-color{
+    colorvar(--main-color)
+}
+.border-main-color{
+    border-bottom-stylesolid;
+    border-width 4px;
+    border-colorvar(--main-color);
+}
+.bg-main-color{
+    background-colorvar(--main-color);
+
+}
+.search-icon{
+    padding-left25px;
+    backgroundurl() no-repeat left;
+    background-size20px;
+}
+.profile{
+    width55px;
+    height45px;
+    padding7px;
+}
+#button1{
+    border-bottom-left-radiusvar(--dropdown-radius);
+    border-top-left-radiusvar(--dropdown-radius);
+}
+#button2{
+    border-bottom-right-radiusvar(--dropdown-radius);
+    border-top-right-radiusvar(--dropdown-radius);
+    border-left-stylesolid;
+    border-left-colorrgb(83,83,83);
+
+
+}
+.bg-second-color{
+    background-colorwhite;
+}
+.left-list {
+    text-decorationnone;
+    padding5px;
+    colorgrey;
+    font-size13px;
+}
+#left-list img{
+    width20px;
+    height20px;
+    border-radius20px;
+}
+.border-gray{
+    border-stylesolid;
+    border-colorrgb(221,221,221);
+    border-width1px;
+}
+.text-gray-dark{
+    colorrgb(117,117,117);
+}
+.hover-darkhover{
+    background-color#ffffff;
+    border-radius5px;
+}
+.post-profile{
+    width55px;
+    height55px;
+    padding7px;
+}
+.text-black{
+    colorblack;
+}
+.post-buttonhover{
+    background-colorrgb(238,238,238);
+}
+.left-button{
+    border-buttom-left-radiusvar(--dropdown-radius);
+    border-top-left-radius var(--dropdown-radius);
+
+}
+.right-button{
+    border-bottom-right-radius var(--dropdown-radius);
+    border-top-right-radiusvar(--dropdown-radius);
+}
+.black-color{
+    colorblack;
+}
